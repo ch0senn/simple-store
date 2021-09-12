@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FakeStore</title>
+  <title>Shoppin Arena</title>
   <link rel="stylesheet" href="./css/style.css" />
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -18,9 +18,18 @@
 </head>
 
 <body>
-  <header></header>
-  <main class="main">
-    <div class="search-field">
+
+  <main class="main container ">
+    <h1>WellCome to Shopping Arena </h1>
+    <div class="search-area">
+
+      <input class="search" type="search" name="" id="search-field">
+      <button onclick="searchByName()" class="btn-submit" id="submit-btn">submit</button>
+    </div>
+
+
+
+    <!-- <div class="search-field">
       <div class="search-box">
         <input id="input-field" class="search-field" type="text" />
         <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
@@ -28,13 +37,16 @@
           Search
         </button>
       </div>
-    </div>
+    </div> -->
+
     <div class="row">
+      <!-- display product container -->
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
-          <h1></h1>
+          <!-- <h1></h1> -->
         </div>
       </div>
+      <!-- card container  -->
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
         <div class="cart" id="my-cart">
           <table class="table">
@@ -50,7 +62,7 @@
             <tbody>
               <tr>
                 <th>Total Added-Products:</th>
-                <td>$ <span id="total-Products">0</span></td>
+                <td> <span id="total-Products">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
