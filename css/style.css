@@ -73,7 +73,7 @@ h1{
   padding: 10px;
   transition: 0.6s;
   border: 1px solid lightcoral;
-  height: 500px;
+  height: 530px;
   width: auto;
   background: whitesmoke;
    
@@ -104,6 +104,7 @@ h1{
   margin-right: 30px;
   position: fixed;
   width: 300px;
+  background-color: cornsilk;
 }
 .cart-main {
   padding-right: 30px;
